@@ -2,21 +2,35 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Main</title>
-
+    <title>
+        Main
+    </title>
     <link rel="stylesheet" href="main.css">
-
     <script type="text/montage-serialization">
-        {
-            "owner": {
-                "properties": {
-                    "element": {"#": "main"}
-                }
+    {
+        "4": {
+            "prototype": "digit/ui/badge.reel",
+            "properties": {
+                "element": {"#": "4"}
+            }
+        },
+        "owner": {
+            "properties": {
+                "element": {"#": "main"}
+            }
+        },
+        "Treepad Title": {
+            "prototype": "digit/ui/title.reel",
+            "properties": {
+                "value": "Scratch Pad - With Treepad"
             }
         }
+    }
     </script>
 </head>
 <body>
-    <div data-montage-id="main" data-montage-skin="light" class="Main"></div>
+    <div data-montage-id="main" data-montage-skin="light" class="Main">
+        <h1 data-montage-id="4"></h1>
+    </div>
 </body>
 </html>
